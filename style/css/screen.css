@@ -1,0 +1,47 @@
+@media screen { 
+
+.reveal  div.header-left {
+    position: absolute;
+    top: -0.3em;
+    left: -2em;
+    padding: 0;
+    margin: 0;
+}
+
+.reveal  div.header-right {
+    position: absolute;
+    top: -0.3em;
+    right: -0.8em;
+    padding: 0;
+    margin: 0;
+}
+.reveal div.footer-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.reveal div.footer-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+.reveal .slides > section {
+  left: 10%; 
+  width: 80%;
+}
+
+}
+/* media screen */
+
+.reveal .slides #feedback-table {
+
+    margin-top: -1.5em;
+    margin-left: 17%;
+}

@@ -1,0 +1,179 @@
+.reveal .slides > section {
+  color: gray;
+
+}
+
+.reveal .slides #sec-title-slide > h1 {
+  font-size: 50pt;
+}  
+
+.reveal .slides #sec-title-slide > h2 {
+  font-size: 80%;
+  margin-top: 4em;
+}  
+
+.reveal .slides section > h1 {
+/*  color: #000033;  10% off of darkblue */
+  color: #000066; /* 20% off of darkblue */
+}
+
+.reveal .slides section > h2 {
+/*  color: #00004d;  15% off of darkblue */
+  color: #000066; /* 20% off of darkblue */
+}
+
+.reveal .slides section > h3 {
+  color: #000066; /* 20% off of darkblue */
+}
+
+.reveal .slides section > h4 {
+  color: #000066; /* 20% off of darkblue */
+}
+
+
+.reveal .slides section > h5 {
+    color: #000066; /* 20% off of darkblue */
+}
+
+
+.reveal section p {
+   margin-top: 1.5em;
+   text-align: left;
+}
+
+.reveal section ul li {
+    margin-top: 1.5em;
+}
+
+.reveal .slides section .footnote {
+  margin-top: 3em;
+  font-size: 50%;
+}
+
+.reveal .slides section .footnote p {
+    margin-top: -1em;
+    text-align: left;
+    margin-left: 8em;
+
+}
+
+
+.reveal .slides section .footnote ul {
+    margin-top: -2em;
+}
+
+
+
+
+.footnote li  {
+    margin-top: -3em;
+    margin-bottom: -0.8em;
+
+ }
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+    text-transform: none;
+}
+
+code {
+    text-transform: none;	
+}
+
+.reveal .slides section .table {
+  font-size: 60%;
+  color: Maroon;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/*
+#pgm-model-table, #approaches-summary-table, #email-accounts-table,
+  #qa-approaches-table, #qa-workshop-summary, #defect-level-defns, #defect-thresholds,
+#lab-hosting-criteria, #outreach-status, #engineers-channels-table {
+  font-size: 60%;
+  color: Maroon;
+  border-style: solid;
+  border-width: 1px;
+}
+*/
+
+.reveal .slides section .special {
+    color:  Blue;
+}
+
+
+.reveal .slides section h1 .subtitle {
+    font-size:  80%;
+}
+
+.reveal .slides section h1 .subsubtitle {
+    font-size:  50%;
+    color:  Green;
+}
+
+.reveal .slides section .org-right {
+    text-align: right;
+}
+
+.reveal .slides section table tbody {
+     border-style: solid;
+     border-width: 1px;
+     border-bottom: 5px;
+}
+
+.reveal .slides section table tbody tr td {
+    border-bottom: 0;
+    height: 0.6em;
+}
+
+.reveal .slides section table thead {
+    border-style: solid;
+    border-style: 1px;
+}
+
+/*
+#watermark
+{
+ position:fixed;
+ bottom:5px;
+ right:5px;
+ opacity:0.5;
+ z-index:99;
+ color:white;
+}
+*/
+
+.reveal  .watermark {
+/*  color: #f0f0f0; */
+    color: #e0e0e0;
+
+  font-size: 100pt;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  z-index: -1;
+  left:100px;
+  top:100px;
+}
+
+pre.src {
+ padding: 1em;
+ font-size: 150%;
+}
+
+.reveal .slides section table tbody:hover {
+  background-color: #ccff66; 
+}
+
+.fname {
+   color: red;
+}
+
+
+pre.src {
+ padding: 1em;
+ font-size: 150%;
+}
